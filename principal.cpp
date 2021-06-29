@@ -13,3 +13,8 @@ Principal::~Principal()
     delete ui;
 }
 
+
+void Principal::on_cmdSaludar_clicked()
+{
+    ui->outSaludo->setText("Ver programa con GIT");
+}
